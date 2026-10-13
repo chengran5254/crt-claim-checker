@@ -1,0 +1,6 @@
+interface:
+  display_name: "CRT-观点检查器"
+  short_description: "检查观点的前提、证据、推理与边界，给出有条件的判断和准确表述"
+  default_prompt: "使用 $crt-claim-checker，检查我提供的观点是否站得住，指出关键依据、边界和必要修订。"
+policy:
+  allow_implicit_invocation: true
